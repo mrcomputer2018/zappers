@@ -13,17 +13,17 @@
 
 .input label {
     font-size: 1.3rem;
-    margin-right: .5rem;
+    margin-right: .7rem;
 }
 
 .inputSearch {
-    height: 1.8rem;
+    height: 2.2rem;
     border-radius: .2rem;
 }
 
 .inputSearch::placeholder {
     font-size: 1.1rem;
-    padding: .3rem;
+    padding: .4rem;
 }
 
 select {
@@ -31,5 +31,22 @@ select {
     font-size: 1.1rem;
     margin: .7rem;
     padding: .3rem;
+}
+
+button {
+    width: 10rem;
+    color: var(--color-white);
+    background: var(--color-green);
+    
+    font-weight: bold;
+    padding: 1rem;
+    margin: .5rem;
+    border-radius: .4rem;
+    cursor: pointer;
+    transition: .3s;
+}
+
+button:hover {
+    background: var(--color-greenLght);
 }
 
