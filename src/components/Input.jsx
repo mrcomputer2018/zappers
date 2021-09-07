@@ -1,4 +1,5 @@
 import React from "react";
+import Select from "./Select";
 
 const Input = (props) => {
     return (
@@ -6,6 +7,7 @@ const Input = (props) => {
             <label htmlFor='inputSearch'>Pesquisa :</label>
             <input className='inputSearch' 
                     type='text' placeholder='  Pesquisar...'></input>
+            <Select />
         </div>
     )
 }
