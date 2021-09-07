@@ -1,9 +1,11 @@
 import React from "react";
+import ZappersList from "../components/ZappersList";
 
-const Home = (props) => {
+const Home = ({ title }) => {
     return (
         <div>
-            Home
+            { title }
+            <ZappersList></ZappersList>
         </div>
     )
 }
