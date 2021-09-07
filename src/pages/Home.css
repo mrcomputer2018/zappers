@@ -1,0 +1,28 @@
+.home {
+ width: 50vw;
+ height: 90vh;
+ margin: 0 auto;
+ background-color: whitesmoke;
+ border: 1px solid gray;
+
+}
+
+.input {
+    margin: 1rem;
+}
+
+.input label {
+    font-size: 1.3rem;
+    margin-right: .5rem;
+}
+
+.inputSearch {
+    height: 1.8rem;
+    border-radius: .2rem;
+}
+
+.inputSearch::placeholder {
+    font-size: 1.1rem;
+    padding: .3rem;
+}
+
