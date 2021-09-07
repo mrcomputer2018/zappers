@@ -71,3 +71,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### npm install json-server --save-dev
 - Criado para o desenvolvedor de front-end que precisa de um back-end rápido para prototipagem e simulação. 
+
+### npm install axios
+- Cliente HTTP baseado em promessa para o navegador e node.js 
