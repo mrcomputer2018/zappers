@@ -5,11 +5,12 @@ import ZappersList from "../components/ZappersList";
 import Button from "../components/Button";
 import Header from "../components/Header";
 
-const Home = ({ title }) => {
+const Home = () => {
+    
     return (
         <div className='home'>
             <Header title="Conta Zap - Zappers" />
-            <Input/>
+            <Input />
             <ZappersList></ZappersList>
             <Button />
         </div>
