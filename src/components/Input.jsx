@@ -6,7 +6,7 @@ const Input = (props) => {
         <div className='input'>
             <label htmlFor='inputSearch'>Pesquisa :</label>
             <input className='inputSearch' 
-                    type='text' placeholder='  Pesquisar...'></input>
+                    type='text' placeholder='  Pesquisar um colaborador...'></input>
             <Select />
         </div>
     )

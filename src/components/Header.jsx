@@ -1,10 +1,9 @@
 import React from "react";
 
-const Header = (props) => {
+const Header = ({ title }) => {
     return (
         <div>
-            <h1>teste</h1>
-            <input type="text" placeholder="Pesquisar..."/>
+            <h1>{ title }</h1>
         </div>
     )
 }
