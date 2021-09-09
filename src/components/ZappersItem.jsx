@@ -19,4 +19,4 @@ const ZappersItem = ({ zapper: { image, name, sector } }) => {
         </div>
     )
 }
-export default ZappersItem;
+export default React.memo(ZappersItem);

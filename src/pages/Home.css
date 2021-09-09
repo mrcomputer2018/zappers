@@ -42,18 +42,17 @@ option {
     background-color: white;
 } 
 
-/* .container_card {
+.container_card {
     display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-} */
+}
 
-article.card {
+.article_card {
     background-color: white;
     margin: .7rem;
-    width: 7rem;
+    width: 10rem;
     padding: .9rem;
     border: 1px solid gray;
+
     display: flex;
     align-items: center;
     justify-content: center;

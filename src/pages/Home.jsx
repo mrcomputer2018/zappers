@@ -5,9 +5,11 @@ import ZappersList from "../components/ZappersList";
 import Button from "../components/Button";
 import Header from "../components/Header";
 import Api from "../services/api";
+
 const Home = () => {
 
     const [zappers, setZappers] = useState([]);
+
     const fetchData = async () => {
         try {
             const response = await Api.get(`/zappers`)

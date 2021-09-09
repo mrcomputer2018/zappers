@@ -1,9 +1,13 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import Select from "./Select";
 
 const Input = (props) => {
     const inputSearchRef = useRef(null)
     const [search, setSearch] = useState('')
+
+    useEffect(() => {
+        inputSearchRef.current.focus();
+    }, []);
 
     return (
         <div className='input'>
@@ -12,7 +16,7 @@ const Input = (props) => {
                     type='text' placeholder='  Pesquisa um colaborador...'
                     value={ search }
                     onChange={(event) => setSearch(event.target.value)}
-                    reef={ inputSearchRef }></input>
+                    ref={ inputSearchRef }></input>
                     {/* {console.log({search})} */}
             <Select />
         </div>

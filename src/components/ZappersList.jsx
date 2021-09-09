@@ -8,7 +8,7 @@ const ZappersList = ({ zappers }) => {
   ), [zappers]);
      
     return (
-        <div className="diV_card">
+        <div className="div_card">
             {renderCustomersList}
         </div>
     )
