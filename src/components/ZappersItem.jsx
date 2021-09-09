@@ -1,33 +1,21 @@
 import React from "react";
 
-const ZappersItem = (props) => {
+const ZappersItem = ({ zapper: { image, name, sector } }) => {
     return (
         <div className='container_card'>
-            <article className="card">
+            <article className="article_card">
                 <img
                     className="thumbnail"
-                    src="../../../public/logo192.png"/* src={image} */
+                    src={image}
                     alt="Foto"
                 />
                 <div>
-                    <span className="person-name">Joao Ricardo{/* {name} */}</span>
+                    <span className="person-name">{ name }</span>
                     <br/>
-                    <span className="person-sector"> Marketing{/* {sector} */}</span>
+                    <span className="person-sector">{ sector }</span>
                 </div>
             </article>
-            
-            <article className="card">
-                <img
-                    className="thumbnail"
-                    src="../../../public/logo192.png"/* src={image} */
-                    alt="Foto"
-                />
-                <div>
-                    <span className="person-name">Joao Ricardo{/* {name} */}</span>
-                    <br/>
-                    <span className="person-sector"> Marketing{/* {sector} */}</span>
-                </div>
-            </article>
+                  
         </div>
     )
 }

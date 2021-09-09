@@ -1,14 +1,15 @@
-import React from "react";
+import React, { useMemo } from "react";
 import ZappersItem from "./ZappersItem";
 
-const ZappersList = (props) => {
-   /*  const renderCustomersList = () => (
-        zappers.map(pessoa => <ZappersItem key={pessoa.name} zapper={pessoa} />) */
+const ZappersList = ({ zappers }) => {
+
+     const renderCustomersList = useMemo(() => (
+    zappers.map(pessoa => <ZappersItem key={pessoa.name} zapper={pessoa} />)
+  ), [zappers]);
      
     return (
-        <div>
-            <ZappersItem></ZappersItem>
-            {/* {renderCustomersList} */}
+        <div className="diV_card">
+            {renderCustomersList}
         </div>
     )
 }
