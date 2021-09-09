@@ -72,5 +72,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### npm install json-server --save-dev
 - Criado para o desenvolvedor de front-end que precisa de um back-end rápido para prototipagem e simulação. Simulação de consumo de dados do back-end.
 
+### yarn server
+_ Executa o servidor ficticio para testar o consumo de dados.
+
 ### npm install axios
 - Cliente HTTP baseado em promessa para o navegador e node.js 
